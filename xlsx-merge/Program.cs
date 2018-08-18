@@ -104,7 +104,7 @@ namespace xlsx_merge
                             for(i=0;i<columns.Length;i++)
                             {
                                  {
-                                    Console.WriteLine("In Row: " + r.ToString());
+                                    Console.WriteLine("In Row: " + r.ToString()+ " file " + f.Name);
 
                                     var s = columns[i];
                                     if (r == 1)
